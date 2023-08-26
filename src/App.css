@@ -1,0 +1,808 @@
+.App {
+  overflow: hidden;
+}
+.AppBanner {
+  background-image: url("/src/Images/Lvi-Studio-Salon-Brookfield-DSC_2209_Original-10.jpg");
+  height: 840px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+  }
+}
+
+#menuToggle {
+  display: none;
+}
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+}
+
+.NavLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  align-items: center;
+}
+
+.Logo {
+  width: 80px;
+  height: 80px;
+}
+
+.NavLinksItem {
+  z-index: 100;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  &:hover {
+    color: #f2b90c;
+  }
+}
+
+.NavLinksButton {
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  &:hover {
+    color: #f2b90c;
+    background-color: black;
+  }
+  background-color: #f2b90c;
+  border: 1px solid none;
+  padding: 10px;
+  margin: 5px;
+}
+
+.NavLinksHamburger {
+  display: none;
+  z-index: 100;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  &:hover {
+    color: #f2b90c;
+  }
+}
+
+.BannerHeader {
+  position: absolute;
+  margin-top: -279.9px;
+  left: 0;
+  width: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.HeaderText {
+  position: absolute;
+  font-size: 4rem;
+  color: #f2b90c;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.HeaderParagraph {
+  position: absolute;
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.FeatureClass {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 410.52px;
+  background: linear-gradient(to bottom, #000000, #1e1d23);
+  color: aliceblue;
+}
+
+.Feature {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5% 10% 10% 10%;
+}
+
+.FeatureOne {
+  color: #f2b90c;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.FeatureTwo {
+  font-weight: 700;
+  padding-top: 25px;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1800px) {
+  .FeatureTwo {
+    font-size: 2.5rem;
+  }
+}
+
+.FeatureThree {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.FeatureFour {
+  border: 3px solid #f2b90c;
+  padding: 10px 15px;
+  width: 70px;
+  color: #f2b90c;
+  margin-top: 40px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: #f2b90c;
+    color: black;
+  }
+}
+
+.TopPicks {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 699.75px;
+  background-color: #1e1d23;
+  color: #f2b90c;
+  padding-top: 20px;
+}
+
+.TopPicksTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+.TopPicksImage {
+  padding: 100px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.Picks {
+  height: 408px;
+  width: 286px;
+  margin: 10px;
+}
+
+.Picks img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.MeetTheBarber {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1e1d23;
+  color: #f2b90c;
+  padding-top: 20px;
+}
+.MeetTheBarberBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1d23;
+  color: #f2b90c;
+  padding-top: 20px;
+}
+.SalonLocation {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.MTBTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+}
+.VisitUsAt {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+
+.MTBDescriptionAndPicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 699.75px;
+  background-color: #1e1d23;
+  color: #f2b90c;
+  margin-top: 20px;
+}
+
+.BarberPicture {
+  width: 38%;
+  height: 100%;
+}
+.BarberDescription {
+  width: 62%;
+  padding: 100px;
+  height: 100%;
+}
+.BarberName {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 70px 0 30px 0;
+}
+.BarberDetail {
+  width: 66%;
+  font-size: 1.1rem;
+  padding: 20px 0;
+  line-height: 1.5;
+}
+@media screen and (max-width: 1400px) {
+  .BarberName {
+    font-size: 2.5rem;
+  }
+  .BarberDetail {
+    font-size: 1rem;
+  }
+  .OurProducts {
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .OurProductsTitle {
+    font-size: 2.5rem;
+    padding-right: 10px;
+    margin-left: 0;
+  }
+}
+.BarberContact {
+  border: 3px solid #f2b90c;
+  width: fit-content;
+  padding: 15px;
+  margin-top: 60px;
+  font-weight: 700;
+  &:hover {
+    background-color: #f2b90c;
+    color: black;
+  }
+}
+.OurProducts {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #1e1d23;
+  color: #f2b90c;
+  padding: 60px;
+}
+
+.OurProductsTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 20%;
+}
+
+.ProductsCaption {
+  font-size: 0.8rem;
+}
+
+.ProductsTitle {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.ProductOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+}
+
+.ProductTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  margin-right: 20%;
+}
+
+.ProductThree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+
+.image-overlay-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.OverlayHeader {
+  font-size: 3.4rem;
+  font-weight: 800;
+  padding: 25px 0;
+  color: #f2b90c;
+  letter-spacing: 3px;
+}
+
+.OverlayButton {
+  border: 3px solid #f2b90c;
+  width: fit-content;
+  padding: 10px 15px;
+  font-weight: 700;
+  &:hover {
+    background-color: #f2b90c;
+    color: black;
+  }
+}
+
+.text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1d23;
+  color: #f2b90c;
+}
+
+.FirstLineFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 60px 60px 5px 60px;
+}
+
+.BookACutFooter {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: white;
+}
+
+.FooterBookButton {
+  background-color: #f2b90c;
+  padding: 10px 17px;
+  font-weight: 700;
+  color: #000000;
+  &:hover {
+    background-color: black;
+    color: #f2b90c;
+  }
+}
+
+.SecondLineFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+  margin: 60px 60px 5px 60px;
+}
+
+.FooterLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ThirdLineFooter {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .HeaderContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .NavLinks {
+    width: 45%;
+  }
+  .TopPicksImage {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .HeaderContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .BannerHeader {
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .HeaderText {
+    font-size: 3.5rem;
+  }
+  .HeaderParagraph {
+    padding-top: 10px;
+    font-size: 1.1rem;
+  }
+  .NavLinks {
+    width: 45%;
+  }
+  .Feature {
+    display: flex;
+    flex-direction: column;
+  }
+  .FeatureThree {
+    padding-top: 35px;
+  }
+  .FeatureFour {
+    margin-top: 20px;
+  }
+  .MeetTheBarberBanner {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+  }
+  .SalonLocation {
+    font-size: 1rem;
+  }
+  .MTBTitle {
+    font-size: 2rem;
+  }
+  .MTBDescriptionAndPicture {
+    flex-direction: column;
+    height: 100%;
+  }
+  .BarberDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  .BarberPicture {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .HeaderContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .NavLinks {
+    width: 50%;
+  }
+  .TopPicks {
+    height: 100%;
+  }
+  .TopPicksTitle {
+    font-size: 2.5rem;
+  }
+  .TopPicksImage {
+    width: 80%;
+
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Picks {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 720px;
+  }
+  .Picks img {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .FirstLineFooter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FooterLogo {
+    margin-left: 70px;
+  }
+  .FooterBookButton {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .HeaderContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .BannerHeader {
+    width: 75%;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .HeaderText {
+    font-size: 3rem;
+  }
+  .HeaderParagraph {
+    padding-top: 10px;
+    font-size: 0.95rem;
+  }
+  .NavLinks {
+    display: none;
+  }
+  .NavLinksHamburger {
+    display: flex;
+  }
+
+  .NavLinksItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+    opacity: 0.9;
+    transform: translateX(100%);
+    &:hover {
+      color: #f2b90c;
+      transform: translateX(0%);
+    }
+  }
+
+  .NavLinksButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+    opacity: 0.9;
+    transform: translateX(100%);
+    &:hover {
+      color: #f2b90c;
+      transform: translateX(0%);
+    }
+  }
+
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 30px;
+    right: 20px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle a {
+    text-decoration: none;
+    color: #f2b90c;
+
+    transition: color 0.3s ease;
+  }
+
+  #menuToggle a:hover {
+    color: tomato;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #f2b90c;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: tomato;
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu {
+    position: absolute;
+    width: 250px;
+    margin: -100px 0 0 -188px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: black;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+
+  #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  #menuToggle input:checked ~ ul {
+    transform: none;
+  }
+  .OurProducts {
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+  }
+  .OurProductsTitle {
+    margin: 50px 0 20px 0;
+  }
+  .ProductTwo {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .BookACutFooter {
+    text-align: center;
+  }
+  .LinkIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .FooterLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .SecondLineFooter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FooterLinks {
+    margin-bottom: 40px;
+  }
+}

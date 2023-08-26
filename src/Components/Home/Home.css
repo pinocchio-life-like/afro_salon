@@ -1,0 +1,184 @@
+.HomeBannerClass {
+  background-image: url("../../Images/lvi-studio-beard-man-scaled.jpg");
+  background-position: 80% 130px;
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 840px;
+  position: relative;
+  display: flex;
+  background-color: #1e1d23;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+  }
+}
+
+.HomeBannerContainer {
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+}
+
+.HomeBannerHeader {
+  position: absolute;
+  margin-top: -359.9px;
+  left: 0;
+  width: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.HomeHeaderText {
+  position: absolute;
+  font-size: 4rem;
+  color: #f2b90c;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.HomeHeaderParagraph {
+  position: absolute;
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-left: 2px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 90%;
+}
+
+.HomeBookButton {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  &:hover {
+    color: #f2b90c;
+    background-color: black;
+  }
+  background-color: #f2b90c;
+  border: 1px solid none;
+  padding: 10px 15px;
+}
+
+.GeneralOverlayContainer {
+  background-image: url("../../Images/Lvi-Studio-Logo-Icon-Outline.webp");
+  background-size: 100% auto;
+  background-position: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Needed for absolute positioning of .OverlayedImages */
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(10, 10, 12, 0.9) 100%,
+        rgba(10, 10, 12, 1) 0%
+      ),
+      linear-gradient(180deg, rgba(30, 29, 35, 1) 0%, transparent 100%);
+  }
+}
+
+.OverlayedImages {
+  z-index: 100;
+  width: 100%;
+}
+
+.ImageAndText {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: -340px;
+}
+
+.TheImages {
+  position: relative;
+  margin-left: 30%;
+}
+
+.ImageOneUnder {
+  position: absolute;
+  width: 360px;
+  size: fit-content;
+}
+.ImageOneUnder img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  height: 420px;
+  border-top-left-radius: 130px;
+}
+.ImageTwoAbove {
+  position: absolute;
+  width: 320px;
+  size: fit-content;
+  margin-top: 180px;
+  margin-left: 160px;
+}
+.ImageTwoAbove img {
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block;
+  height: 420px;
+  border-top-right-radius: 130px;
+  border-bottom-left-radius: 130px;
+}
+.TheTexts {
+  position: relative;
+  margin-left: 35%;
+  margin-top: 500px;
+}
+.CutsAndBarber {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: white;
+}
+.CutsAndBarberPar {
+  padding-top: 30px;
+  color: white;
+}
+.CutsAndBarberExplore {
+  padding-top: 40px;
+  border-bottom: 2px solid #f2b90c;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: inline-block;
+}
