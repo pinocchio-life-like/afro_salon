@@ -33,7 +33,7 @@ function TheStudio() {
       <div className="BannerHeader">
         <div className="HeaderText">The Studio</div>
         <div className="HeaderParagraph">
-          Afro Studio is an intimate men’s hair salon and barbershop in
+          Lvi Studio is an intimate men’s hair salon and barbershop in
           Brookfield inside the beautiful Sage Salon and Studios.We are
           conveniently located off Bluemound and Goerkes Corners just beyond The
           Corners and Poplar Creek.
@@ -159,7 +159,7 @@ function TheStudio() {
           </div>
         </div>
         <div className="ThirdLineFooter">
-          Copyright © 2023 Afro-Salon Made by Eliyas Asefa
+          Copyright © 2023 Lvi-Salon Made by Eliyas Asefa
         </div>
       </div>
     </div>
