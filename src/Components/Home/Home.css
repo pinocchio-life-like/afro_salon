@@ -4,11 +4,10 @@
   background-repeat: no-repeat;
   background-size: 40% auto;
   width: 100%;
-  position: absolute;
   top: 0;
   left: 0;
   height: 840px;
-  position: relative;
+  position: relative; /* Keep this single position property */
   display: flex;
   background-color: #1e1d23;
   &:after {
@@ -80,7 +79,7 @@
     background-color: black;
   }
   background-color: #f2b90c;
-  border: 1px solid none;
+  border: none; /* Remove border */
   padding: 10px 15px;
 }
 
