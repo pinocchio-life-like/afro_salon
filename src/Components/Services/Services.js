@@ -19,7 +19,7 @@ function Services() {
           <div className="ServicesHeaderText">Hair services</div>
         </div>
       </div>
-      <div>
+      <div className="ServicesHairCut">
         <h2>Haircuts</h2>
       </div>
     </div>

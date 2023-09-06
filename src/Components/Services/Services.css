@@ -48,3 +48,11 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+.ServicesHairCut {
+  position: absolute;
+  margin-top: -480px;
+  left: 0;
+  width: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
