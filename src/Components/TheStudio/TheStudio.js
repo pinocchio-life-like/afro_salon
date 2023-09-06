@@ -82,7 +82,15 @@ function TheStudio() {
         </div>
         <div className="MTBDescriptionAndPicture">
           <div className="BarberPicture">
-            <img src={image5} width="100%" alt="image5" />
+            <img
+              src={image5}
+              width="100%"
+              alt="image5"
+              style={{
+                borderTopRightRadius: "25%",
+                borderBottomLeftRadius: "25%",
+              }}
+            />
           </div>
           <div className="BarberDescription">
             <div className="BarberName">Sara Ledvina</div>

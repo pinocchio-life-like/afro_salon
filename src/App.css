@@ -266,7 +266,6 @@
   font-size: 1rem;
   font-weight: 700;
   padding-top: 20px;
-  margin-bottom: 100px;
 }
 
 .MTBDescriptionAndPicture {
@@ -274,14 +273,15 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 699.75px;
+  height: 100%;
   background-color: #1e1d23;
   color: #f2b90c;
   margin-top: 20px;
 }
 
 .BarberPicture {
-  width: 38%;
+  margin-left: 25%;
+  width: 42%;
   height: 100%;
 }
 .BarberDescription {
@@ -550,6 +550,7 @@
     width: 100%;
   }
   .BarberPicture {
+    margin-left: 0;
     width: 80%;
     height: 100%;
   }

@@ -19,6 +19,9 @@ function Services() {
           <div className="ServicesHeaderText">Hair services</div>
         </div>
       </div>
+      <div>
+        <h2>Haircuts</h2>
+      </div>
     </div>
   );
 }
