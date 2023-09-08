@@ -49,8 +49,11 @@
   font-weight: 700;
 }
 .ServicesHairCut {
+  display: flex;
+  color: white;
+  z-index: 1000;
   position: absolute;
-  margin-top: -480px;
+  margin-top: -180px;
   left: 0;
   width: 40%;
   margin-left: 20%;

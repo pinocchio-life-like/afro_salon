@@ -3,6 +3,8 @@ import React from "react";
 import "./Services.css";
 import Header from "../Header/Header";
 
+import HairCuts from "../../Images/lvi-studio-haircuts.svg";
+
 function Services() {
   return (
     <div>
@@ -20,7 +22,10 @@ function Services() {
         </div>
       </div>
       <div className="ServicesHairCut">
-        <h2>Haircuts</h2>
+        <div className="ServiceCardImage">
+          <img src={HairCuts} alt="" />
+        </div>
+        <h1>Haircuts</h1>
       </div>
     </div>
   );
