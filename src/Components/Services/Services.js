@@ -22,10 +22,15 @@ function Services() {
         </div>
       </div>
       <div className="ServicesHairCut">
-        <div className="ServiceCardImage">
-          <img src={HairCuts} alt="" />
+        <div className="ServicesHairCutHeader">
+          <div className="ServiceCardImage">
+            <img src={HairCuts} alt="" />
+          </div>
+          <h1>Haircuts</h1>
         </div>
-        <h1>Haircuts</h1>
+        <div className="HaircutServicesList">
+          
+        </div>
       </div>
     </div>
   );
