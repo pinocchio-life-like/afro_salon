@@ -6,6 +6,7 @@ import Header from "../Header/Header";
 import HairCuts from "../../Images/lvi-studio-haircuts.svg";
 import HairColor from "../../Images/lvi-studio-haircolor.svg";
 import Barbering from "../../Images/lvi-studio-barbering.svg";
+import AddOn from "../../Images/lvi-studio-addons.svg";
 import image9 from "../../Images/Lvi-Studio-Salon-Brookfield-DSC03225_Original-1.jpg";
 import Logo from "../../Images/Artboard-1.svg";
 import LocationSvg from "../../Images/Location.svg";
@@ -388,6 +389,96 @@ function Services() {
           </div>
         </div>
       </div>
+
+      <div className="ServicesAddOn">
+        <div className="ServicesAddOnHeader">
+          <div className="ServiceCardImage">
+            <img src={AddOn} alt="" />
+          </div>
+          <h1>Add-ons</h1>
+        </div>
+        <div className="AddOnServicesList">
+          <div className="AddOnServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Waxing – Ears</h2>
+                <h2 className="ServicesPrice">$10</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Use of hard wax to remove unwanted ear hairs. Waxing ear hairs
+                last 2-3 weeks longer than trimming alone.
+              </p>
+            </div>
+          </div>
+          <div className="AddOnServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Waxing – Nose</h2>
+                <h2 className="ServicesPrice">$10</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Use of hard wax to remove unwanted nose hairs. Waxing nose hairs
+                last 2-3 weeks longer than trimming alone.
+              </p>
+            </div>
+          </div>
+          <div className="AddOnServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">
+                  Waxing – Nose and Ears Wax Combo
+                </h2>
+                <h2 className="ServicesPrice">$15</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Both services at the same time.
+              </p>
+            </div>
+          </div>
+          <div className="AddOnServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Waxing – Brow Shaping</h2>
+                <h2 className="ServicesPrice">$15</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Use of all-purpose or hard wax to clean up or shape eyebrows.
+              </p>
+            </div>
+          </div>
+          <div className="AddOnServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Mini Facial</h2>
+                <h2 className="ServicesPrice">$25</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Abbreviated barber facial using hot steam towel to cleanse the
+                face and open the pores, facial cleanse, exfoliating scrub,
+                moisturizer, and light facial massage.
+              </p>
+            </div>
+          </div>
+          <div className="AddOnServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Exec Add-on</h2>
+                <h2 className="ServicesPrice">$5</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Additional 5-7 neck and scalp massage to any service.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div
         className="image-overlay-container"
         style={{ backgroundImage: `url(${image9})` }}>
