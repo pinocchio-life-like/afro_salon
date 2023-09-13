@@ -6,7 +6,11 @@ import Header from "../Header/Header";
 import HairCuts from "../../Images/lvi-studio-haircuts.svg";
 import HairColor from "../../Images/lvi-studio-haircolor.svg";
 import Barbering from "../../Images/lvi-studio-barbering.svg";
-import image9 from "../../Images/Lvi-Studio-Salon-Brookfield-DSC03218_Original-14.jpg";
+import image9 from "../../Images/Lvi-Studio-Salon-Brookfield-DSC03225_Original-1.jpg";
+import Logo from "../../Images/Artboard-1.svg";
+import LocationSvg from "../../Images/Location.svg";
+import PhoneSvg from "../../Images/Phone.svg";
+import EmailSvg from "../../Images/Email.svg";
 function Services() {
   return (
     <div>
@@ -391,6 +395,38 @@ function Services() {
           <div style={{ fontWeight: 700 }}>Explore Our Hair Services</div>
           <div className="OverlayHeader">Book a Cut</div>
           <div className="OverlayButton">Book Now</div>
+        </div>
+      </div>
+      <div className="Footer">
+        <div className="FirstLineFooter">
+          <div className="FooterLogo">
+            <img height={150} src={Logo} alt="logo" />
+          </div>
+          <div className="BookACutFooter">Book a cut and style online.</div>
+          <div className="FooterBookButton">Book Now</div>
+        </div>
+        <div className="SecondLineFooter">
+          <div className="FooterLinks FooterLinksOne">
+            <div className="linkIcon">
+              <img width={30} height={30} src={LocationSvg} alt="logo" />
+            </div>
+            <div>19680 W Bluemound Rd.</div>
+          </div>
+          <div className="FooterLinks">
+            <div className="linkIcon">
+              <img width={30} height={30} src={PhoneSvg} alt="logo" />
+            </div>
+            <div>(262) 391-1575</div>
+          </div>
+          <div className="FooterLinks FooterLinksThree">
+            <div className="linkIcon">
+              <img width={30} height={30} src={EmailSvg} alt="logo" />
+            </div>
+            <div>icbrfl19@gmail.com</div>
+          </div>
+        </div>
+        <div className="ThirdLineFooter">
+          Copyright © 2023 Lvi-Salon Made by Eliyas Asefa
         </div>
       </div>
     </div>
