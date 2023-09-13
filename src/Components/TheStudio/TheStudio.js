@@ -10,7 +10,6 @@ import image5 from "../../Images/Lvi-Studio-Salon-Brookfield-DSC_2175_Original-9
 import image6 from "../../Images/American_Crew_logo_black.png";
 import image7 from "../../Images/reuzel-logo.png";
 import image8 from "../../Images/STMNTWhite.webp";
-// import Video from "../..Components/Video/Video";
 import image9 from "../../Images/Lvi-Studio-Salon-Brookfield-DSC03218_Original-14.jpg";
 import Logo from "../../Images/Artboard-1.svg";
 import LocationSvg from "../../Images/Location.svg";
