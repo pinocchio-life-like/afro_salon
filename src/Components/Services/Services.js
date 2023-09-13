@@ -6,7 +6,7 @@ import Header from "../Header/Header";
 import HairCuts from "../../Images/lvi-studio-haircuts.svg";
 import HairColor from "../../Images/lvi-studio-haircolor.svg";
 import Barbering from "../../Images/lvi-studio-barbering.svg";
-
+import image9 from "../../Images/Lvi-Studio-Salon-Brookfield-DSC03218_Original-14.jpg";
 function Services() {
   return (
     <div>
@@ -382,6 +382,15 @@ function Services() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div
+        className="image-overlay-container"
+        style={{ backgroundImage: `url(${image9})` }}>
+        <div className="overlay">
+          <div style={{ fontWeight: 700 }}>Explore Our Hair Services</div>
+          <div className="OverlayHeader">Book a Cut</div>
+          <div className="OverlayButton">Book Now</div>
         </div>
       </div>
     </div>
