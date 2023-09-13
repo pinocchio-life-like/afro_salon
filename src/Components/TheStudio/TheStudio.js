@@ -18,13 +18,6 @@ import PhoneSvg from "../../Images/Phone.svg";
 import EmailSvg from "../../Images/Email.svg";
 
 function TheStudio() {
-  // const videoData = {
-  //   videoUrl:
-  //     "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.tiktok.com%2Fapi%2Fimg%2F%3FitemId%3D7056195779257617710%26location%3D0%26aid%3D1988&tbnid=j3kWZAzREQKFzM&vet=12ahUKEwjM16P74eOAAxXP6aQKHVLNDioQMygiegUIARDBAQ..i&imgrefurl=https%3A%2F%2Fwww.tiktok.com%2F%40j.strives%2Fvideo%2F7056195779257617710&docid=KkX0Ekdhy9ZT4M&w=1080&h=1920&q=haircut%20tiktok&ved=2ahUKEwjM16P74eOAAxXP6aQKHVLNDioQMygiegUIARDBAQ",
-  //   caption: "Caption",
-  //   username: "Eliyas",
-  //   likes: "1000",
-  // };
   return (
     <div className="App">
       <div className="AppBanner">
