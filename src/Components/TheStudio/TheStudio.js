@@ -120,7 +120,6 @@ function TheStudio() {
           <img src={image7} width="100%" alt="image1" />
         </div>
       </div>
-      {/* <Video {...videoData} /> */}
       <div
         className="image-overlay-container"
         style={{ backgroundImage: `url(${image9})` }}>
