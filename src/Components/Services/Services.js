@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 
 import HairCuts from "../../Images/lvi-studio-haircuts.svg";
 import HairColor from "../../Images/lvi-studio-haircolor.svg";
+import Barbering from "../../Images/lvi-studio-barbering.svg";
 
 function Services() {
   return (
@@ -268,6 +269,116 @@ function Services() {
                 special occasion styling needs and/or the use of more than
                 normal products or time based on the amount of hair or special
                 requests.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="ServicesBarbering">
+        <div className="ServicesBarberingHeader">
+          <div className="ServiceCardImage">
+            <img src={Barbering} alt="" />
+          </div>
+          <h1>Barbering</h1>
+        </div>
+        <div className="BarberingServicesList">
+          <div className="BarberingServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Beard Trim</h2>
+                <h2 className="ServicesPrice">$20</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Utilizing a wealth of knowledge of the American Crew method and
+                technique education/experience, you can expect an exceptional
+                beard shaping and line up by a well trained barber with an eye
+                for detail. ***This service is performed all/only by clippers,
+                if you would like a straight razor shave line-up you will need
+                to add that service at booking to allow for time and product
+                prep.
+              </p>
+            </div>
+          </div>
+          <div className="BarberingServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Shave Line-Up</h2>
+                <h2 className="ServicesPrice">$25</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Similar to a traditional shave, we use hot towels to open pores,
+                hot lather and straight razor to shave the perfect edging for
+                your beard. Perfect complimentary service for your beard trim
+                keep your lines fresh for a few days longer.
+              </p>
+            </div>
+          </div>
+          <div className="BarberingServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Classic Barber Shave</h2>
+                <h2 className="ServicesPrice">$45</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                The traditional Straight Razor Shave includes application of a
+                steam towel to open up the pores and soften the hair follicle.
+                Hot lather is applied and you will receive a first pass shave
+                with the grain of the beard. A second application of hot lather
+                follows, with second shave against the grain for a closer shave.
+                A cool towel is applied to close the pores.
+              </p>
+            </div>
+          </div>
+          <div className="BarberingServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Executive Barber Shave</h2>
+                <h2 className="ServicesPrice">$55</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Treat yourself to extra relaxation with the addition of scalp
+                massage and facial products/manipulations added to our Classic
+                Shave. Classic shave includes application of a steam towel to
+                open up the pores and soften the hair follicle. Hot lather is
+                applied and you will receive a first pass shave with the grain
+                of the beard. A second application of hot lather follows, with
+                second shave against the grain for a closer shave. A cool towel
+                is applied to close the pores.
+              </p>
+            </div>
+          </div>
+          <div className="BarberingServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Hot Lather Head Shave</h2>
+                <h2 className="ServicesPrice">$45</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Similar to our classic face shave, we utilize hot towels, shave
+                oils, and hot lather to prep the scalp for a straight razor
+                scalp shave. If needed we will repeat the process for 2 passes
+                to ensure the smoothest finish.
+              </p>
+            </div>
+          </div>
+          <div className="BarberingServicesCard">
+            <div className="ServicesCardContainer">
+              <div className="ServicesCardTitle">
+                <h2 className="ServicesSectionTitle">Full Barber Facial</h2>
+                <h2 className="ServicesPrice">$50</h2>
+              </div>
+              <hr style={{ margin: "15px 0" }} />
+              <p style={{ padding: "10px", fontSize: "1rem" }}>
+                Treat yourself with the most relaxing of our services. This
+                facial massage and cleansing includes application of multiple
+                hot steam towels to open up the pores and cleanse the face,
+                facial wash, exfoliating scrub, mask, and a light facial, scalp
+                and hand massage.
               </p>
             </div>
           </div>
