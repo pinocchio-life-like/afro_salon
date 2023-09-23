@@ -22,5 +22,3 @@ const Book = () => {
 };
 
 export default Book;
-// wih_mine
-// ye botau sifat, yetesetebet ken,
